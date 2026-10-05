@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jajalin.outdor | Rental Alat Outdoor, Camping & Hiking</title>
+<meta name="description" content="Jajalin.outdor menyediakan rental perlengkapan outdoor, camping, dan hiking dengan proses mudah dan harga terjangkau.">
+<meta name="theme-color" content="#1f4d2b">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jajalin.outdor | Rental Alat Outdoor, Camping & Hiking">
+<meta property="og:description" content="Rental perlengkapan outdoor, camping, dan hiking dengan proses mudah dan harga terjangkau.">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-999px" onfocus="this.style.left='8px'" onblur="this.style.left='-999px'">Lewati ke konten</a>
+
+<header>
+ <div class="wrap nav">
+  <a class="brand" href="#home" aria-label="Jajalin.outdor, beranda"><img src="images/logo.png" alt="Logo Jajalin.outdor" width="46" height="46">Jajalin.outdor</a>
+  <ul class="menu" id="menu">
+   <li><a href="#home">Home</a></li><li><a href="#tentang">Tentang Kami</a></li><li><a href="#perlengkapan">Perlengkapan</a></li>
+   <li><a href="#harga">Harga</a></li><li><a href="#cara-sewa">Cara Sewa</a></li><li><a href="#faq">FAQ</a></li><li><a href="#kontak">Kontak</a></li>
+   <li><a class="btn btn-p btn-s" href="#booking">Booking Sekarang</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+ <div class="wrap">
+  <div>
+   <h1>Petualangan Dimulai Tanpa Harus Membeli Peralatannya</h1>
+   <p class="sub">Sewa perlengkapan outdoor berkualitas untuk camping dan hiking dengan harga terjangkau.</p>
+   <div class="cta-row"><a class="btn btn-p" href="#booking">Booking Sekarang</a><a class="btn btn-o" href="#perlengkapan">Lihat Perlengkapan</a></div>
+  </div>
+  <div class="hero-art"><img src="images/logo.png" alt="Ilustrasi tenda camping, api unggun, dan rubah kecil di bawah pohon" width="380" height="380"></div>
+ </div>
+</section>
+
+<section class="about" id="tentang">
+ <div class="wrap">
+  <div class="about-box">
+   <h2>Tentang Jajalin.outdor</h2>
+   <p>Mau camping atau naik gunung tapi belum punya alat? Santai, nggak perlu beli semuanya dulu. Jajalin.outdor menyewakan perlengkapan outdoor supaya kamu bisa menikmati camping dan hiking tanpa keluar modal besar.</p>
+   <p style="margin:0">Cocok buat mahasiswa, pendaki pemula, komunitas camping, dan siapa pun yang mau mencoba dulu. Jajalin aja!</p>
+  </div>
+  <div>
+   <div class="head"><h2>Kenapa sewa di Jajalin?</h2></div>
+   <div class="grid" id="why" style="grid-template-columns:repeat(auto-fill,minmax(210px,1fr))"></div>
+  </div>
+ </div>
+</section>
+
+<section id="perlengkapan">
+ <div class="wrap">
+  <div class="head"><h2>Daftar Perlengkapan</h2><p>Pilih alat yang kamu butuhkan. Durasi sewa dan ketentuan harga mengikuti kebijakan Jajalin.outdor. Stok akan diisi sesuai data.</p></div>
+  <div class="grid" id="products"></div>
+ </div>
+</section>
+
+<section id="harga" style="background:var(--soft)">
+ <div class="wrap">
+  <div class="head"><h2>Paket Rental</h2><p>Biar nggak bingung milih, ambil paket yang sudah dikelompokkan dengan harga lebih hemat. Isi paket mengikuti ketersediaan stok.</p></div>
+  <div class="grid" id="packages"></div>
+ </div>
+</section>
+
+<section id="cara-sewa">
+ <div class="wrap">
+  <div class="head"><h2>Cara Sewa</h2><p>Empat langkah saja, dari pilih alat sampai siap berangkat.</p></div>
+  <ol class="steps" id="steps"></ol>
+  <p class="note">Syarat, deposit, durasi sewa, dan ketentuan pengembalian mengikuti kebijakan Jajalin.outdor.</p>
+ </div>
+</section>
+
+<section id="galeri" style="padding-top:1rem">
+ <div class="wrap">
+  <div class="head"><h2>Galeri</h2><p>Suasana camping dan hiking di alam.</p></div>
+  <div class="gal" id="gallery"></div>
+ </div>
+</section>
+
+<section id="testimoni">
+ <div class="wrap">
+  <div class="head"><h2>Kata Mereka</h2></div>
+  <div class="grid" id="testi"></div>
+ </div>
+</section>
+
+<section id="faq">
+ <div class="wrap">
+  <div class="head"><h2>Pertanyaan yang Sering Ditanyakan</h2></div>
+  <div class="faq" id="faqs"></div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap"><div class="cta">
+  <h2>Siap Memulai Petualanganmu?</h2>
+  <p>Jangan biarkan mahalnya perlengkapan menghentikan perjalananmu.</p>
+  <a class="btn btn-p" href="#booking">Booking Sekarang</a>
+ </div></div>
+</section>
+
+<section id="booking" style="padding-top:1rem">
+ <div class="wrap">
+  <div class="head"><h2>Form Booking</h2><p>Isi data singkat di bawah. Pesanan dikirim lewat WhatsApp untuk dikonfirmasi.</p></div>
+  <form id="bf" novalidate>
+   <div class="row">
+    <div><label for="nama">Nama</label><input id="nama" name="nama" autocomplete="name" required><div class="err" id="e-nama"></div></div>
+    <div><label for="hp">Nomor WhatsApp</label><input id="hp" name="hp" type="tel" inputmode="tel" autocomplete="tel" placeholder="08xxxxxxxxxx" required><div class="err" id="e-hp"></div></div>
+   </div>
+   <div><label for="item">Perlengkapan / Paket</label><select id="item" name="item" required></select><div class="err" id="e-item"></div></div>
+   <div class="row">
+    <div><label for="mulai">Tanggal mulai sewa</label><input id="mulai" name="mulai" type="date" required><div class="err" id="e-mulai"></div></div>
+    <div><label for="durasi">Durasi (hari)</label><input id="durasi" name="durasi" type="number" min="1" max="60" value="1" required><div class="err" id="e-durasi"></div></div>
+   </div>
+   <div><label for="catatan">Catatan (opsional)</label><textarea id="catatan" name="catatan" rows="3"></textarea></div>
+   <button class="btn btn-p" type="submit">Kirim Booking</button>
+   <div id="status" role="status" aria-live="polite"></div>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer id="kontak">
+ <div class="wrap">
+  <div>
+   <a class="brand" href="#home"><img src="images/logo.png" alt="" width="46" height="46">Jajalin.outdor</a>
+   <p style="margin-top:.8rem">Sewa Perlengkapan Outdoor, Camping &amp; Hiking</p>
+  </div>
+  <div><h3>Menu</h3><ul>
+   <li><a href="#home">Home</a></li><li><a href="#tentang">Tentang Kami</a></li><li><a href="#perlengkapan">Perlengkapan</a></li><li><a href="#harga">Harga</a></li><li><a href="#cara-sewa">Cara Sewa</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+  <div><h3>Kontak</h3><ul>
+   <li>Area layanan: Jl. Kp. Kobak Buaya No.88, RT.13/RW.6, Sukamanah, Kec. Sukatani, Kabupaten Bekasi, Jawa Barat 17630</li><li>WhatsApp: +62 857-7427-5739</li><li>Instagram: jajalin_outdoor</li><li>Jam operasional: 08:00-23:00</li></ul></div>
+ </div>
+ <div class="wrap copy">© 2026 Jajalin.outdor. All rights reserved.</div>
+</footer>
+
+<a class="wa" id="wa" href="#booking" aria-label="Booking via WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.7 1.200 1.500 1.900 1 .9 1.900 1.200 2.200 1.300.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.1.1.7-.1 1.300z"/></svg></a>
+
+<script src="js/data.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
